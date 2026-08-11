@@ -1,0 +1,12 @@
+{
+  "latest": {
+    "version": "v5",
+    "file": "suq-router-v5-f16.gguf",
+    "size": 1516744128,
+    "sha256": "99cefd27041fc69370082af31d8b12b094064be1a08eb5181e9c8c947a5eedfb",
+    "sources": [
+      "https://github.com/alkhadraa02/suq-models/releases/download/model-v5/suq-router-v5-f16.gguf",
+      "https://mosaiden.com/model/suq-router-v5-f16.gguf"
+    ]
+  }
+}
