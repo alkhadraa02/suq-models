@@ -1,4 +1,5 @@
 {
+  "_readme": "بيان نموذج مساعد سوق المساعدين. latest = v5 للتطبيقات القديمة (عقد v5). router_v6 = العقد الجديد (سطر التاريخ + الاستيضاح) — يقرؤه التطبيق 1.4.0+ فقط. تحديث النموذج = تعديل هذا الملف فقط.",
   "latest": {
     "version": "v5",
     "file": "suq-router-v5-f16.gguf",
@@ -7,6 +8,17 @@
     "sources": [
       "https://github.com/alkhadraa02/suq-models/releases/download/model-v5/suq-router-v5-f16.gguf",
       "https://mosaiden.com/model/suq-router-v5-f16.gguf"
+    ]
+  },
+  "router_v6": {
+    "version": "v6",
+    "file": "suq-router-v6-q8_0.gguf",
+    "size": 811843072,
+    "sha256": "1349a9968594507f9b8ea4415dac694ab25a1367e25aff4fe3710dc2ec5c7a84",
+    "contract": "compact-v6: system SYSTEM_BASE + date line, no tool schemas, Qwen3.5 text tool-call format",
+    "sources": [
+      "https://github.com/alkhadraa02/suq-models/releases/download/model-v6/suq-router-v6-q8_0.gguf",
+      "https://mosaiden.com/model/suq-router-v6-q8_0.gguf"
     ]
   }
 }
